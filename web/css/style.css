@@ -1,0 +1,79 @@
+body {
+		overflow-y: hidden;
+		background-color: rgb(36,36,36);
+		font-family: Stolzl;
+		padding: 0px;
+		margin: 0px;
+}
+
+select
+{
+		background-color: rgb(255,149,0);
+		border: none;
+		border-radius: 10px;
+	  padding: 3px;
+    margin-left: 5px;
+	  font-size: 16px;
+	  cursor: pointer;
+}
+
+button
+{
+		background-color: rgb(8,161,102);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+input	{
+		/*color: rgb(238,238,238)*/
+		color: rgb(132,38, 236);
+		background-color: rgb(14,14,14);
+		border:none;
+}
+
+input:focus {
+		outline: none;
+}
+
+p {
+		padding: 0px;
+		margin: 0px;
+}
+
+tbody {
+	text-align: center;
+	background-color:  rgba(0,0,0,0.4); 
+}
+thead {
+	background-color: rgba(0,0,0,0.4); 
+}
+
+#main {
+		display: inline-block; 
+		vertical-align: top;
+		width: 60%;
+}
+
+#main > div {
+		margin-left: 7%;
+		margin-top: 30px;
+}
+
+#main > div > img {
+	  vertical-align: bottom;
+    width: 4%;
+}
+
+.results {
+	color: rgb(238,238,238) !important;
+}
+.right {
+	color: green !important;
+}
+
+.miss {
+	color: red !important;
+}

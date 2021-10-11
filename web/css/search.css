@@ -1,0 +1,47 @@
+#action {
+		background-color: rgb(8,161,102);
+		border: none;
+		border-radius: 10px;
+	  padding: 3px;
+    margin-left: 5px;
+	  font-size: 16px;
+	  cursor: pointer;
+}
+
+#command {
+		font-size: 16px;
+		padding: 5px;
+		width: 60%;
+
+		border: none;
+		border-radius: 10px;
+		border-width: 1px;
+		border-color: rgb(8,161,102);
+}
+
+#command:hover {
+		box-shadow: 1px 1px 1px rgb(133, 57, 200);
+}
+
+#command:focus {
+		box-shadow: 1px 1px 1px rgb(133, 57, 200);
+}
+
+#request_button {
+		padding: 5px;
+}
+
+
+.green_button
+{
+	  background-color: rgb(8,161,102);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.green_button:hover{
+		-moz-box-shadow:0 0 20px rgb(8,161,102) !important;
+		-webkit-box-shadow: 4px 5px 5px rgb(8,161,102) !important;
+		box-shadow: 3px 2px 0px rgb(8,161,102) !important;
+}

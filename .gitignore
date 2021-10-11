@@ -1,0 +1,9 @@
+# Игнорировать кэш python
+__pycache__/
+*.pyc
+
+# Игнорировать файл библиотеки
+wordcloud-1.8.1-cp39-cp39-win_amd64.whl
+
+# Игнорировать exe файл chromedriver
+/parse/chromedriver.exe

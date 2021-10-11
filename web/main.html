@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Парсер</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/left_column.css">
+    <link rel="stylesheet" type="text/css" href="css/data_block.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+</head>
+<body>
+	<div id='node_list'>
+			<div><p>Авторы</p></div>
+				<ul id="all_nodes" style="padding-inline-start: 0px;">
+				
+				</ul>
+	</div>
+
+	<!-- Блока вывода основной инфомрации (заданий)-->
+	<div id='main'>
+			<div id='search_block'>
+					<img src="img/icon.png">
+					<select id="action" onchange="change_header(this)">
+							<option value="search">Поиск в БД</option>
+							<option value="parse">Парсинг</option>
+					</select>
+					<input id="command" type="text" placeholder="command line">
+					<input id='request_button' class="green_button" type="button" onclick="query_to_python()" value='Выполнить'>
+			</div>
+			<div id='data_block'>
+					<div id='data_board'>
+							<!-- Шапка -->
+							<div id='data_header'>
+									Результаты
+							</div>
+							<!-- Блок непосредственно с данными -->
+							<div id='data'>
+							</div>
+					</div>
+			</div>
+	</div>
+</body>
+		<script>
+		</script>
+		<!-- Мнимый js файл - он должен быть подключен для номрального функцонирования  -->
+    <script type="text/javascript" src="/eel.js"></script>
+    <!-- Наш js файл -->
+    <script type="text/javascript" src="js/eel_to_js.js"></script>
+</html>
